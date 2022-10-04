@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: #0e0b16;
+    color: #4717f6;
+}
+
+.container{
+    display: flex;
+}
+
+.producto{
+    display: flex;
+    min-height: 200px;
+    max-height: 200px;
+    border: 2px #4717f6 solid;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 100vh;
+    height: 50%;
+    object-fit: scale-down;
+}
+
+.producto h3{
+    align-self: center;
+}
+
+.producto p{
+    align-self: center;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+
+.producto .boton-agregar{
+    align-self: center;
+}
+.boton-agregar{
+    border: #4717f6 2px solid;
+    border-radius: 6px;
+    background-color: #0e0b16;
+    color: #e7dfdd;
+    margin-right: 10px;
+    width: 20%;
+    height: 20%;
+}
+
+.boton-agregar:hover{
+    background-color: #4717f6;
+}
+
+.offcanvas-body{
+    background-color: #0e0b16;
+    
+}
+.imagen{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    object-fit: cover;
+    width: 40%;
+    height: 100%;
+    align-self: center;
+}
+
+.productoCarrito{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.modal-carrito{
+    border: #e7dfdd 1px solid;
+    display: flex;
+    
+   
+}
+
+.prodTitle{
+    width: 25%;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+    color: #e7dfdd;
+    border: #4717f6 1px solid;
+    border-radius: 4px;
+}
+
+.prodPrecio{
+    margin: 5px;
+}
+
+.prodCantidad{
+    margin: 5px;
+}
+
+#cantidad{
+    color: #e7dfdd;
+}
+
+#precio{
+    color: #e7dfdd;
+}
+
+#precioTotal{
+    color: #e7dfdd;
+}
+
+#signoPeso{
+    color: #e7dfdd;
+}
+
+.btn-close{
+    background-color: #4717f6;
+    opacity: 1;
+}
+
+.btn-close:hover{
+    background-color: #e7dfdd;
+    opacity: 1;
+}
+
+.boton-carrito{
+    background-color: #4717f6;
+    color: #e7dfdd;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.boton-elminar{
+    border-radius: 20px;
+    background-color: #4717f6;
+    margin: 5px;
+}
+
+.contenedor-productos{
+    border: #4717f6 4px solid;
+}
+.contTecla{
+     width: 250px;
+    border: 2px #4717f6 solid;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px;
+    height: 100%;
+
+}
+
+.offcanvas-header{
+    background-color: #0e0b16;
+}
+
+.modal-carrito{
+    justify-content: center;
+    align-items: center;
+
+}
+.imgSelecTeclado{
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.imgSelecTeclado:hover{
+    opacity: 1;
+
+}
+.imgSelecAuri{
+    object-fit: cover;
+    width: 22%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.imgSelecAuri:hover{
+    opacity: 1;
+}
+
+.contTecla a{
+    text-decoration: none;
+}
