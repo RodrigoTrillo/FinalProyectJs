@@ -93,8 +93,8 @@ let producto= fetch("/data.json")
     
             localStorage.setItem("carrito", JSON.stringify(carrito))
         })
-        contadorCarrito.innerHTML= carrito.reduce((acc, prod)=> acc + prod.cantidad, 0)
-        //contadorCarrito.innerHTML=carrito.length
+        
+        contadorCarrito.innerHTML=carrito.length
         precioTotal.innerText = carrito.reduce((acc, prod)=> acc + prod.precio*prod.cantidad, 0)
     }
 
