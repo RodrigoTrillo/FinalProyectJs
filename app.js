@@ -13,7 +13,6 @@ const precioTotal = document.getElementById("precioTotal")
 let carrito =[]
 
 document.addEventListener('DOMContentLoaded', () => {
-    /* fetchTeclados() */
     localStorage.getItem('carrito')? (carrito = JSON.parse(localStorage.getItem('carrito')), actualizarCarrito()): null
 })
 
@@ -87,14 +86,16 @@ let producto= fetch("/data.json")
             <p class="prodTitle">${prod.nombre}</p>
             <p class="prodPrecio">Precio: <span id="precio">$ ${prod.precio}</span></p>
             <p class="prodCantidad">Cantidad: <span id="cantidad">${prod.cantidad}</span></p>
+            <button onclick="restar(${prod.cantidad})" class="btn-restar">-</button>
+            <button onclick="sumar(${prod.cantidad})" class="btn-sumar">+</button>
             <button onclick="eliminarDelCarrito(${prod.id})" class="boton-elminar btn-close"></button>
             `
             contenedorCarrito.appendChild(div)
     
             localStorage.setItem("carrito", JSON.stringify(carrito))
         })
-        
-        contadorCarrito.innerHTML=carrito.length
+        contadorCarrito.innerHTML= carrito.reduce((acc, prod)=> acc + prod.cantidad, 0)
+        //contadorCarrito.innerHTML=carrito.length
         precioTotal.innerText = carrito.reduce((acc, prod)=> acc + prod.precio*prod.cantidad, 0)
     }
 
