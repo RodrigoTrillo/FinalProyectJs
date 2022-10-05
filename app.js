@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 botonVaciar.addEventListener(`click`, ()=>{
-    carrito.length= 0
-    localStorage.clear()
-    actualizarCarrito()
+    carrito=[];
+    localStorage.clear();
+    actualizarCarrito();
 })
 
 
@@ -73,10 +73,15 @@ let producto= fetch("/data.json")
         const item = carrito.find((prod)=> prod.id === prodId)
         const indice = carrito.indexOf(item)
         carrito.splice(indice, 1)
+        if(carrito.length = 0){
+            carrito = [];
+        }
+        localStorage.clear()
         actualizarCarrito()
     }
 
 
+    
     const actualizarCarrito = () =>{
         contenedorCarrito.innerHTML=""
         carrito.forEach((prod)=>{
@@ -86,8 +91,6 @@ let producto= fetch("/data.json")
             <p class="prodTitle">${prod.nombre}</p>
             <p class="prodPrecio">Precio: <span id="precio">$ ${prod.precio}</span></p>
             <p class="prodCantidad">Cantidad: <span id="cantidad">${prod.cantidad}</span></p>
-            <button onclick="restar(${prod.cantidad})" class="btn-restar">-</button>
-            <button onclick="sumar(${prod.cantidad})" class="btn-sumar">+</button>
             <button onclick="eliminarDelCarrito(${prod.id})" class="boton-elminar btn-close"></button>
             `
             contenedorCarrito.appendChild(div)
