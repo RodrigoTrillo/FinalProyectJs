@@ -42,9 +42,10 @@ botonVaciar.addEventListener(`click`, ()=>{
 
 
 
-let producto= fetch("./data.json")
+let producto= fetch("../data.json")
 .then((res)=>res.json())
 .then((data)=>{
+    console.log(data)
     data.forEach((producto)=>{
         const div = document.createElement("div")
         div.classList.add("producto")
@@ -58,7 +59,6 @@ let producto= fetch("./data.json")
         const boton = document.getElementById(`agregar${producto.id}`)
         boton.addEventListener("click", ()=>{
             agregarCarrito(producto.id)
-            
         })
         const agregarCarrito = (prodId)=>{
             const existe = carrito.some (prod =>prod.id === prodId)
@@ -80,6 +80,7 @@ let producto= fetch("./data.json")
                 }
               }).showToast()
             console.log(carrito)
+            
         }
         
         })
