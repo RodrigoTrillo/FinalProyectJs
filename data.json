@@ -16,18 +16,119 @@
     "precio":4500 ,
     "img": "../images/teclados/tec2.jpg" 
     },
-    {"id":3 ,"nombre":"Teclado T-Dagger Naxos Rainbow TGK310-RD Switch Red" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":5500 , "img": "../images/teclados/tec3.jpg" },
-    {"id":4 ,"nombre":"Teclado T-Dagger Bora White RGB TGK315W-BL Switch Blue" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":6300 , "img": "../images/teclados/tec4.jpg" },
-    {"id":5 ,"nombre":"Teclado T-Dagger Bora Black Rainbow TGK313 Switch red" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":6100 , "img": "../images/teclados/tec5.jpg" },
-    {"id":6 ,"nombre":"Teclado Redragon Yama White K550 RGB" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":11700 , "img": "../images/teclados/tec6.jpg" },
-    {"id":7 ,"nombre":"Teclado Redragon Yama Black K550 RGB" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":11700 , "img": "../images/teclados/tec7.jpg" },
-    {"id":8 ,"nombre":"Teclado Redragon Shrapnel K589 RGB" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":9300 , "img": "../images/teclados/tec8.jpg" },
-    {"id":9 ,"nombre":"Teclado Redragon Shiva Black K512 RGB" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":5300 , "img": "../images/teclados/tec9.jpg" },
-    {"id":10 ,"nombre":"Teclado Redragon Fizz Pro White/Pink K616 RGB" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":9200 , "img": "../images/teclados/tec10.jpg" },
-    {"id":11 ,"nombre":"Teclado Logitech MX Keys Mini Rosa Inalámbrico" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":12400 , "img": "../images/teclados/tec11.jpg" },
-    {"id":12 ,"nombre":"Teclado Logitech G Pro LoL Edition" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":24000 , "img": "../images/teclados/tec12.jpg" },
-    {"id":13 ,"nombre":"Teclado Logitech G815 Carbon" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":27000 , "img": "../images/teclados/tec13.jpg" },
-    {"id":14 ,"nombre":"Teclado Razer Black Widow" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":13400 , "img": "../images/teclados/tec14.jpg" },
-    {"id":15 ,"nombre":"Teclado Redragon Karura K502" ,"tipo":"teclado" , "cantidad":1 , "descripcion":"Teclado para gaming" , "precio":4600 , "img": "../images/teclados/tec15.jpg" }
+    {
+    "id":3 ,
+    "nombre":"Teclado T-Dagger Naxos Rainbow TGK310-RD Switch Red" ,
+    "tipo":"teclado" , 
+    "cantidad":1 , 
+    "descripcion":"Teclado para gaming" ,
+    "precio":5500 ,
+    "img": "../images/teclados/tec3.jpg" 
+    },
+    {
+    "id":4 ,
+    "nombre":"Teclado T-Dagger Bora White RGB TGK315W-BL Switch Blue" ,
+    "tipo":"teclado" , 
+    "cantidad":1 , 
+    "descripcion":"Teclado para gaming" , 
+    "precio":6300 , 
+    "img": "../images/teclados/tec4.jpg" 
+    },
+    {"id":5 ,
+    "nombre":"Teclado T-Dagger Bora Black Rainbow TGK313 Switch red" ,
+    "tipo":"teclado" ,
+    "cantidad":1 ,
+    "descripcion":"Teclado para gaming" ,
+    "precio":6100 , 
+    "img": "../images/teclados/tec5.jpg" 
+    },
+    {"id":6 ,
+    "nombre":"Teclado Redragon Yama White K550 RGB" ,
+    "tipo":"teclado" , 
+    "cantidad":1 ,
+    "descripcion":"Teclado para gaming" , 
+    "precio":11700 , 
+    "img": "../images/teclados/tec6.jpg" 
+    },
+    {
+    "id":7 ,
+    "nombre":"Teclado Redragon Yama Black K550 RGB" ,
+    "tipo":"teclado" , 
+    "cantidad":1 ,
+    "descripcion":"Teclado para gaming" , 
+    "precio":11700 , 
+    "img": "../images/teclados/tec7.jpg" 
+    },
+    {
+    "id":8 ,
+    "nombre":"Teclado Redragon Shrapnel K589 RGB" ,
+    "tipo":"teclado" , 
+    "cantidad":1 , 
+    "precio":9300 , 
+    "img": "../images/teclados/tec8.jpg" 
+    },
+    {
+    "id":9 ,
+    "nombre":"Teclado Redragon Shiva Black K512 RGB" ,
+    "tipo":"teclado" ,
+    "cantidad":1 , 
+    "descripcion":"Teclado para gaming" ,
+    "precio":5300 , 
+    "img": "../images/teclados/tec9.jpg" 
+    },
+    {
+    "id":10 ,
+    "nombre":"Teclado Redragon Fizz Pro White/Pink K616 RGB" ,
+    "tipo":"teclado" ,
+    "cantidad":1 , 
+    "descripcion":"Teclado para gaming" , 
+    "precio":9200 , 
+    "img": "../images/teclados/tec10.jpg" 
+    },
+    {
+    "id":11 ,
+    "nombre":"Teclado Logitech MX Keys Mini Rosa Inalámbrico" ,
+    "tipo":"teclado" , 
+    "cantidad":1 ,
+    "descripcion":"Teclado para gaming" , 
+    "precio":12400 , 
+    "img": "../images/teclados/tec11.jpg" 
+    },
+    {
+    "id":12 ,
+    "nombre":"Teclado Logitech G Pro LoL Edition" ,
+    "tipo":"teclado" ,
+    "cantidad":1 ,
+    "descripcion":"Teclado para gaming" ,
+    "precio":24000 , 
+    "img": "../images/teclados/tec12.jpg" 
+    },
+    {
+    "id":13 ,
+    "nombre":"Teclado Logitech G815 Carbon" ,
+    "tipo":"teclado" ,
+    "cantidad":1 ,
+    "descripcion":"Teclado para gaming" ,
+    "precio":27000 , 
+    "img": "../images/teclados/tec13.jpg" 
+    },
+    {
+    "id":14 ,
+    "nombre":"Teclado Razer Black Widow" ,
+    "tipo":"teclado" , 
+    "cantidad":1 , 
+    "descripcion":"Teclado para gaming" , 
+    "precio":13400 , 
+    "img": "../images/teclados/tec14.jpg" 
+    },
+    {
+    "id":15 ,
+    "nombre":"Teclado Redragon Karura K502" ,
+    "tipo":"teclado" , 
+    "cantidad":1 ,
+    "descripcion":"Teclado para gaming" , 
+    "precio":4600 ,
+    "img": "../images/teclados/tec15.jpg" 
+    }
    
 ]   

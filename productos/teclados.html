@@ -49,7 +49,7 @@
             tabindex="-1"
             id="offcanvasRight"
             aria-labelledby="offcanvasRightLabel"
-          >
+          </div>
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
               <button
@@ -65,13 +65,14 @@
                 <div class="modal-carrito">
                   <div id="carrito-contenedor" class="contCarrito"></div>
                 </div>
-                <div>
+                <div class="contBtn">
                   <p class="precioProducto">
-                    Precio total: <span id="signoPeso">$</span><span id="precioTotal">0</span>
+                    Precio total: $ <span id="precioTotal">0</span>
                   </p>
                   <button id="vacias-carrito" class="boton-agregar">
                     Vaciar Carrito
                   </button>
+                  <a href="../form.html" id="finalizarCompra" class="boton-agregar btnFin">Finalizar Compra</a>
                 </div>
               </div>
             </div>
@@ -91,6 +92,7 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/toastify-js"
     ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="/app.js"></script>
   </body>
 </html>
