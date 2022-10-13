@@ -42,7 +42,7 @@ botonVaciar.addEventListener(`click`, ()=>{
 
 
 
-let producto= fetch("/data.json")
+let producto= fetch("./data.json")
 .then((res)=>res.json())
 .then((data)=>{
     data.forEach((producto)=>{
