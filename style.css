@@ -378,96 +378,6 @@ nav a:hover{
 }
 
 
-/* .contInput{
-    display: flex;  
-    flex-direction: column;
-    
-    margin: 10px;
-}
-
-.contInput input{
-    margin: 10px;
-}
-
-.contInputRight{
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    
-    
-}
-
-.contInputRight input{
-    margin: 10px;
-}
-
-.contInputRight label{
-    margin-left: 10px;
-}
-
-.contForm{
-    display: flex;
-    justify-content: center;
-}
-
-.titleCont{
-    display: flex;
-    justify-content: center;
-}
-
-.formTitle{
-    text-align: center;
-    font-size: 70px;
-    border-bottom: #4717f6 4px solid;
-    width: fit-content;
-}
-
-
-.contIcons i{
-    font-size:70px;
-    color: #4717f6;
-}
-
-input{
-    border: #4717f6 2px solid;
-}
-
-input::placeholder{
-    color: #0e0b16;
-    font-size: 15px;
-    text-align: center;
-}
-.btnFin{
-    display: flex;
-    justify-content: center;
-    content: "Fin";
-    
-}
-
-.finCompra{
-    margin-top: 20px;
-    border: #4717f6 2px solid;
-    color: #4717f6;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-    padding: 1rem;
-    margin: 10px;
-}
-
-.finCompra:hover{
-    background-color: #4717f6;
-    color: #e7dfdd;
-    font-size: larger;
-    text-decoration: none;
-    transition: all 1s ease-out;
-}
-
-.contFin{
-    display: flex;
-    justify-content: center;
-}
- */
 /* carrousel */
 
 .carrousel{
@@ -478,6 +388,13 @@ input::placeholder{
     width: 80%;
     margin: 0 auto;
     
+}
+
+.d-block{
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .carousel-control-prev-icon{
